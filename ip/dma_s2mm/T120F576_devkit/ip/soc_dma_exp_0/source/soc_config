@@ -1,0 +1,15 @@
+--ramHex "/home/supernova/work/sw/efinity/2021.1/ipm/ip/efx_soc/efx_soc/generator/bootloader/bootloader_124K.hex"
+--axiAEnable false
+--systemFrequency 50000000
+--iCacheSize 4096
+--ddrASize 0xe0000000
+--spi name=system_spi_0_io,address=0x014000,interruptId=4
+--ddrMaster name=io_ddrMasters_0,dataWidth=64
+--cpuCached true
+--softTap false
+--ddrAEnable true
+--onChipRamSize 0x1000
+--dCacheSize 4096
+--apbSlave name=io_apbSlave_0,address=0x800000,size=65536
+--uart name=system_uart_0_io,address=0x10000,interruptId=1
+--ddrADataWidth 128

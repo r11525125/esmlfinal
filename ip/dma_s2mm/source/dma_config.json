@@ -1,0 +1,58 @@
+{
+    "name": "EfxDMA",
+    "efinix_ddr": false,
+    "with_ddr_write_queue": false,
+    "with_ddr_read_queue": false,
+    "ctrl": {
+        "asynchronous": false
+    },
+    "buffer": {
+        "bank_count": 2,
+        "bank_width": 32,
+        "bank_words": 1024
+    },
+    "read": {
+        "address_width": 32,
+        "data_width_external": 64,
+        "data_width_internal": 64
+    },
+    "write": {
+        "address_width": 32,
+        "data_width_external": 64,
+        "data_width_internal": 64
+    },
+    "channels": {
+        "c0": {
+            "direct_ctrl_capable": true,
+            "linked_list_capable": false,
+            "memory_to_memory": false,
+            "inputs": [
+                "dat0_i"
+            ],
+            "outputs": [
+                "dat0_o"
+            ],
+            "half_completion_interrupt": false,
+            "self_restart_capable": false,
+            "bytes_per_burst": 64,
+            "buffer_address": 0,
+            "buffer_size": 1024
+        }
+    },
+    "inputs": {
+        "dat0_i": {
+            "data_width": 32,
+            "tid_width": 0,
+            "tdest_width": 4,
+            "asynchronous": false
+        }
+    },
+    "outputs": {
+        "dat0_o": {
+            "data_width": 32,
+            "tid_width": 0,
+            "tdest_width": 4,
+            "asynchronous": false
+        }
+    }
+}

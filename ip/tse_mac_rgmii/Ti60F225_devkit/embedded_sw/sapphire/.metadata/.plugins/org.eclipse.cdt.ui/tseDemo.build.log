@@ -1,0 +1,6 @@
+10:10:06 **** Incremental Build of configuration Default for project tseDemo ****
+make all 
+make: Nothing to be done for 'all'.
+
+10:10:06 Build Finished. 0 errors, 0 warnings. (took 105ms)
+

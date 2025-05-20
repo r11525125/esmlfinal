@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efx:project name="final" description="" last_change_date="週二 五月 20 2025 13:02:10" location="C:/Efinity/2023.1/project/final" sw_version="2023.1.150" last_run_state="fail" last_run_tool="efx_map" last_run_flow="syn" config_result_in_sync="true" design_ood="" place_ood="change" route_ood="new" xmlns:efx="http://www.efinixinc.com/enf_proj" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/enf_proj enf_proj.xsd">
+    <efx:device_info>
+        <efx:family name="Titanium"/>
+        <efx:device name="Ti60F225"/>
+        <efx:timing_model name="C4"/>
+    </efx:device_info>
+    <efx:design_info def_veri_version="verilog_2k" def_vhdl_version="vhdl_2008">
+        <efx:top_module name="system_top"/>
+        <efx:design_file name="system_top.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/dma_s2mm.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/dma_s2mm_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/dma_s2mm_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/dma_s2mm_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/source/EfxDMA.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/dma_loopback_tester.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/top.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/dma_exp_0/dma_exp_0.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/dma_exp_0/dma_exp_0_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/dma_exp_0/dma_exp_0_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/dma_exp_0/dma_exp_0_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/dma_exp_0/source/EfxDMA.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/bin2gray.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/efx_asyncfifo_ctl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/efx_fifo_ctl_sm.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/efx_fifo_functions.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/efx_fifo_wrapper.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/efx_syncfifo_ctl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/gray2bin.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/pipe_reg.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/fifo/simple_dual_port_ram_fifo.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/soc_dma_exp_0/soc_dma_exp_0.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/soc_dma_exp_0/soc_dma_exp_0_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/soc_dma_exp_0/soc_dma_exp_0_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/soc_dma_exp_0/soc_dma_exp_0_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/T120F576_devkit/ip/soc_dma_exp_0/source/hardware/netlist/EfxSapphireSoc.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/bin2gray.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/ddr_simple_dual_port_ram.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/default_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/default_soc_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/dma_exp_0.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/dma_loopback_tester.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/dma_s2mm.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/dma_s2mm_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/efx_asyncfifo_ctl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/efx_fifo_ctl_sm.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/efx_fifo_functions.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/efx_fifo_wrapper.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/efx_syncfifo_ctl.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/gray2bin.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/memory_checker.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/pipe_reg.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/simple_ddr_model.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/simple_dual_port_ram_fifo.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/soc_dma_exp_0.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/soc_dma_exp_0_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/tb_define.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/tb_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/top.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/top_soc_wrapper.v" version="default" library="default"/>
+        <efx:design_file name="ip/dma_s2mm/Testbench/user_dual_port_ram.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/trojan_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/trojan_soc_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/trojan_soc_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/trojan_soc_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/source/hardware/netlist/EfxSapphireSoc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/source/hardware/netlist/source_efinity/EfxSapphireSoc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/source/hardware/netlist/source_modelsim/EfxSapphireSoc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/T120F324_devkit/ddr_reset_sequencer.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/T120F324_devkit/design_modules.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/T120F324_devkit/top_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/T120F324_devkit/trojan_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/T120F324_devkit/trojan_soc_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/design_modules.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/sim_modules.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/tb_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/top_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/trojan_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/trojan_soc_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/W25Q32JVxxIM.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Testbench/modelsim/trojan_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti180J484_devkit/design_modules.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti180J484_devkit/top_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti180J484_devkit/trojan_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti180J484_devkit/trojan_soc_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti60F225_devkit/design_modules.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti60F225_devkit/hbram_top.encrypted.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti60F225_devkit/hbram_top.vh" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti60F225_devkit/top_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti60F225_devkit/trojan_soc.v" version="default" library="default"/>
+        <efx:design_file name="ip/trojan_soc/Ti60F225_devkit/trojan_soc_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/tse_mac_rgmii_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/tse_mac_rgmii_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/tse_mac_rgmii_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/apb3_2_axi4_lite.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/axi4_st_mux.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/DaulClkFifo.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/header.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/mac_pat_gen.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/mac_rx2tx.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/reg_apb3.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/rgmii_2_rmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/temac_ex.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/tse_mac_rgmii_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/udp_pat_gen.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/ip/sapphire/sapphire.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/ip/sapphire/sapphire_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/ip/sapphire/sapphire_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/ip/sapphire/sapphire_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/T120F324_devkit/ip/sapphire/source/hardware/netlist/EfxSapphireSoc.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/apb3_2_axi4_lite.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/axi4_st_mux.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/DaulClkFifo.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/glbl.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/mac_pat_gen.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/mac_rx2tx.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/ODDR.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/reg_apb3.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/rgmii_2_rmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/tb_header.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/tb_top.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/temac_ex.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/tse_mac_rgmii_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/udp_pat_gen.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/modelsim/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/ncsim/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Testbench/synopsys/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/apb3_2_axi4_lite.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/axi4_st_mux.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/DaulClkFifo.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/header.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/mac_pat_gen.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/mac_rx2tx.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/reg_apb3.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/rgmii_2_rmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/temac_ex.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/tse_mac_rgmii.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/tse_mac_rgmii_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/udp_pat_gen.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/ip/sapphire/sapphire.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/ip/sapphire/sapphire_define.vh" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/ip/sapphire/sapphire_tmpl.v" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/ip/sapphire/sapphire_tmpl.vhd" version="default" library="default"/>
+        <efx:design_file name="ip/tse_mac_rgmii/Ti60F225_devkit/ip/sapphire/source/hardware/netlist/EfxSapphireSoc.v" version="default" library="default"/>
+        <efx:top_vhdl_arch name=""/>
+    </efx:design_info>
+    <efx:constraint_info>
+        <efx:sdc_file name="system_top.sdc"/>
+        <efx:sdc_file name="ip/dma_s2mm/T120F576_devkit/constraints.sdc"/>
+        <efx:sdc_file name="ip/trojan_soc/T120F324_devkit/constraints.sdc"/>
+        <efx:sdc_file name="ip/trojan_soc/Ti180J484_devkit/constraints.sdc"/>
+        <efx:sdc_file name="ip/trojan_soc/Ti60F225_devkit/constraints.sdc"/>
+        <efx:sdc_file name="ip/tse_mac_rgmii/T120F324_devkit/timing.sdc"/>
+        <efx:sdc_file name="ip/tse_mac_rgmii/Ti60F225_devkit/timing_Ti60.sdc"/>
+        <efx:inter_file name=""/>
+    </efx:constraint_info>
+    <efx:sim_info/>
+    <efx:misc_info/>
+    <efx:ip_info>
+        <efx:ip instance_name="trojan_soc" path="ip/trojan_soc/settings.json">
+            <efx:ip_src_file name="trojan_soc.v"/>
+        </efx:ip>
+        <efx:ip instance_name="tse_mac_rgmii" path="ip/tse_mac_rgmii/settings.json">
+            <efx:ip_src_file name="tse_mac_rgmii.v"/>
+        </efx:ip>
+        <efx:ip instance_name="dma_s2mm" path="ip/dma_s2mm/settings.json">
+            <efx:ip_src_file name="dma_s2mm.v"/>
+        </efx:ip>
+    </efx:ip_info>
+    <efx:synthesis tool_name="efx_map">
+        <efx:param name="work_dir" value="work_syn" value_type="e_string"/>
+        <efx:param name="write_efx_verilog" value="on" value_type="e_bool"/>
+        <efx:param name="allow-const-ram-index" value="0" value_type="e_option"/>
+        <efx:param name="blackbox-error" value="1" value_type="e_option"/>
+        <efx:param name="blast_const_operand_adders" value="1" value_type="e_option"/>
+        <efx:param name="bram_output_regs_packing" value="1" value_type="e_option"/>
+        <efx:param name="create-onehot-fsms" value="0" value_type="e_option"/>
+        <efx:param name="fanout-limit" value="0" value_type="e_integer"/>
+        <efx:param name="hdl-compile-unit" value="1" value_type="e_option"/>
+        <efx:param name="infer-clk-enable" value="3" value_type="e_option"/>
+        <efx:param name="infer-sync-set-reset" value="1" value_type="e_option"/>
+        <efx:param name="max_ram" value="-1" value_type="e_integer"/>
+        <efx:param name="max_mult" value="-1" value_type="e_integer"/>
+        <efx:param name="min-sr-fanout" value="0" value_type="e_integer"/>
+        <efx:param name="min-ce-fanout" value="0" value_type="e_integer"/>
+        <efx:param name="mult-decomp-retime" value="0" value_type="e_option"/>
+        <efx:param name="mode" value="speed" value_type="e_option"/>
+        <efx:param name="operator-sharing" value="0" value_type="e_option"/>
+        <efx:param name="optimize-adder-tree" value="0" value_type="e_option"/>
+        <efx:param name="optimize-zero-init-rom" value="1" value_type="e_option"/>
+        <efx:param name="retiming" value="1" value_type="e_option"/>
+        <efx:param name="seq_opt" value="1" value_type="e_option"/>
+        <efx:param name="seq-opt-sync-only" value="0" value_type="e_option"/>
+        <efx:param name="dsp-input-regs-packing" value="1" value_type="e_option"/>
+        <efx:param name="dsp-output-regs-packing" value="1" value_type="e_option"/>
+        <efx:param name="dsp-mac-packing" value="1" value_type="e_option"/>
+        <efx:param name="insert-carry-skip" value="0" value_type="e_option"/>
+        <efx:param name="pack-luts-to-comb4" value="0" value_type="e_option"/>
+        <efx:param name="include" value="ip/trojan_soc" value_type="e_string"/>
+        <efx:param name="include" value="ip/tse_mac_rgmii" value_type="e_string"/>
+        <efx:param name="include" value="ip/dma_s2mm" value_type="e_string"/>
+    </efx:synthesis>
+    <efx:place_and_route tool_name="efx_pnr">
+        <efx:param name="work_dir" value="work_pnr" value_type="e_string"/>
+        <efx:param name="verbose" value="off" value_type="e_bool"/>
+        <efx:param name="load_delaym" value="on" value_type="e_bool"/>
+        <efx:param name="optimization_level" value="NULL" value_type="e_option"/>
+        <efx:param name="seed" value="1" value_type="e_integer"/>
+        <efx:param name="placer_effort_level" value="2" value_type="e_option"/>
+        <efx:param name="max_threads" value="-1" value_type="e_integer"/>
+        <efx:param name="beneficial_skew" value="on" value_type="e_option"/>
+    </efx:place_and_route>
+    <efx:bitstream_generation tool_name="efx_pgm">
+        <efx:param name="mode" value="active" value_type="e_option"/>
+        <efx:param name="width" value="1" value_type="e_option"/>
+        <efx:param name="enable_roms" value="smart" value_type="e_option"/>
+        <efx:param name="spi_low_power_mode" value="on" value_type="e_bool"/>
+        <efx:param name="io_weak_pullup" value="on" value_type="e_bool"/>
+        <efx:param name="oscillator_clock_divider" value="DIV8" value_type="e_option"/>
+        <efx:param name="bitstream_compression" value="on" value_type="e_bool"/>
+        <efx:param name="enable_external_master_clock" value="off" value_type="e_bool"/>
+        <efx:param name="active_capture_clk_edge" value="negedge" value_type="e_option"/>
+        <efx:param name="jtag_usercode" value="0xFFFFFFFF" value_type="e_string"/>
+        <efx:param name="release_tri_then_reset" value="on" value_type="e_bool"/>
+        <efx:param name="four_byte_addressing" value="off" value_type="e_bool"/>
+        <efx:param name="generate_bit" value="on" value_type="e_bool"/>
+        <efx:param name="generate_bitbin" value="off" value_type="e_bool"/>
+        <efx:param name="generate_hex" value="on" value_type="e_bool"/>
+        <efx:param name="generate_hexbin" value="off" value_type="e_bool"/>
+        <efx:param name="cold_boot" value="off" value_type="e_bool"/>
+        <efx:param name="cascade" value="off" value_type="e_option"/>
+    </efx:bitstream_generation>
+    <efx:debugger>
+        <efx:param name="work_dir" value="work_dbg" value_type="e_string"/>
+        <efx:param name="auto_instantiation" value="off" value_type="e_bool"/>
+        <efx:param name="profile" value="NONE" value_type="e_string"/>
+    </efx:debugger>
+    <efx:security>
+        <efx:param name="randomize_iv_value" value="on" value_type="e_bool"/>
+        <efx:param name="iv_value" value="" value_type="e_string"/>
+        <efx:param name="enable_bitstream_encrypt" value="off" value_type="e_bool"/>
+        <efx:param name="enable_bitstream_auth" value="off" value_type="e_bool"/>
+        <efx:param name="encryption_key_file" value="NONE" value_type="e_string"/>
+        <efx:param name="auth_key_file" value="NONE" value_type="e_string"/>
+    </efx:security>
+</efx:project>

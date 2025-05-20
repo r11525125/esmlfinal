@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<efxpt:design_db name="final" device_def="Ti60F225" location="C:\Efinity\2023.1\project\final" version="2023.1.150" db_version="20231999" last_change_date="Tue May 20 11:03:17 2025" xmlns:efxpt="http://www.efinixinc.com/peri_design_db" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.efinixinc.com/peri_design_db peri_design_db.xsd ">
+    <efxpt:device_info>
+        <efxpt:iobank_info>
+            <efxpt:iobank name="1A" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="1A_MODE_SEL"/>
+            <efxpt:iobank name="1B" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="1B_MODE_SEL"/>
+            <efxpt:iobank name="2A" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="2A_MODE_SEL"/>
+            <efxpt:iobank name="2B" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="2B_MODE_SEL"/>
+            <efxpt:iobank name="3A" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="3A_MODE_SEL"/>
+            <efxpt:iobank name="3B" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="3B_MODE_SEL"/>
+            <efxpt:iobank name="4A" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="4A_MODE_SEL"/>
+            <efxpt:iobank name="4B" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="4B_MODE_SEL"/>
+            <efxpt:iobank name="BL" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="BL_MODE_SEL"/>
+            <efxpt:iobank name="BR" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="BR_MODE_SEL"/>
+            <efxpt:iobank name="TL" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="TL_MODE_SEL"/>
+            <efxpt:iobank name="TR" iostd="1.8 V LVCMOS" is_dyn_voltage="false" mode_sel_name="TR_MODE_SEL"/>
+        </efxpt:iobank_info>
+        <efxpt:ctrl_info>
+            <efxpt:ctrl name="cfg" ctrl_def="CONFIG_CTRL0" clock_name="" is_clk_invert="false" cbsel_bus_name="cfg_CBSEL" config_ctrl_name="cfg_CONFIG" ena_capture_name="cfg_ENA" error_status_name="cfg_ERROR" um_signal_status_name="cfg_USR_STATUS" is_remote_update_enable="false" is_user_mode_enable="false"/>
+        </efxpt:ctrl_info>
+        <efxpt:seu_info>
+            <efxpt:seu name="seu" block_def="CONFIG_SEU0" mode="auto" ena_detect="false" wait_interval="16500000">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="seu_START" type_name="START" is_bus="false"/>
+                    <efxpt:pin name="seu_INJECT_ERROR" type_name="INJECT_ERROR" is_bus="false"/>
+                    <efxpt:pin name="seu_RST" type_name="RST" is_bus="false"/>
+                    <efxpt:pin name="seu_CONFIG" type_name="CONFIG" is_bus="false"/>
+                    <efxpt:pin name="seu_ERROR" type_name="ERROR" is_bus="false"/>
+                    <efxpt:pin name="seu_DONE" type_name="DONE" is_bus="false"/>
+                </efxpt:gen_pin>
+            </efxpt:seu>
+        </efxpt:seu_info>
+        <efxpt:clkmux_info>
+            <efxpt:clkmux name="CLKMUX_B" block_def="CLKMUX_B" is_mux_bot0_dyn="false" is_mux_bot7_dyn="false">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="" type_name="ROUTE0" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE1" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE2" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE3" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_0" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_7" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_0" is_bus="true"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_7" is_bus="true"/>
+                </efxpt:gen_pin>
+            </efxpt:clkmux>
+            <efxpt:clkmux name="CLKMUX_L" block_def="CLKMUX_L" is_mux_bot0_dyn="false" is_mux_bot7_dyn="false">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="" type_name="ROUTE0" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE1" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE2" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE3" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_0" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_7" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_0" is_bus="true"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_7" is_bus="true"/>
+                </efxpt:gen_pin>
+            </efxpt:clkmux>
+            <efxpt:clkmux name="CLKMUX_R" block_def="CLKMUX_R" is_mux_bot0_dyn="false" is_mux_bot7_dyn="false">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="" type_name="ROUTE0" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE1" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE2" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE3" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_0" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_7" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_0" is_bus="true"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_7" is_bus="true"/>
+                </efxpt:gen_pin>
+            </efxpt:clkmux>
+            <efxpt:clkmux name="CLKMUX_T" block_def="CLKMUX_T" is_mux_bot0_dyn="false" is_mux_bot7_dyn="false">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="" type_name="ROUTE0" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE1" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE2" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="ROUTE3" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_0" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_OUT_7" is_bus="false"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_0" is_bus="true"/>
+                    <efxpt:pin name="" type_name="DYN_MUX_SEL_7" is_bus="true"/>
+                </efxpt:gen_pin>
+            </efxpt:clkmux>
+        </efxpt:clkmux_info>
+    </efxpt:device_info>
+    <efxpt:gpio_info>
+        <efxpt:global_unused_config state="input with weak pullup"/>
+    </efxpt:gpio_info>
+    <efxpt:pll_info/>
+    <efxpt:osc_info/>
+    <efxpt:lvds_info>
+        <efxpt:lvds name="lvds_bidir_inst1" lvds_def="" ops_type="bidir">
+            <efxpt:adv_ltx_info pll_instance="" fast_clock_name="" slow_clock_name="" reset_name="lvds_bidir_inst1_TX_RST" out_bname="lvds_bidir_inst1_TX_DATA" oe_name="lvds_bidir_inst1_TX_OE" delay="0" is_half_rate="false" is_serial="false" serial_width="8" mode="out" diff_type="lvds" vod="typical" pre_emphasis="medium low">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="lvds_bidir_inst1_TX_DATA" type_name="OUT" is_bus="true"/>
+                    <efxpt:pin name="lvds_bidir_inst1_TX_OE" type_name="OE" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_TX_RST" type_name="OUTRST" is_bus="false"/>
+                    <efxpt:pin name="" type_name="OUTFASTCLK" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="OUTSLOWCLK" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                </efxpt:gen_pin>
+            </efxpt:adv_ltx_info>
+            <efxpt:adv_lrx_info pll_instance="" fast_clock_name="" slow_clock_name="" in_bname="lvds_bidir_inst1_RX_DATA" reset_name="lvds_bidir_inst1_RX_RST" conn_type="normal" clkmux_buf_name="" delay="16" delay_mode="static" is_fifo="false" is_half_rate="false" is_serial="false" serial_width="8" is_voc_driver="false" termination="on" is_slvs="false">
+                <efxpt:gen_pin>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_DATA" type_name="IN" is_bus="true"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_FIFO_EMPTY" type_name="FIFO_EMPTY" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_LOCK" type_name="LOCK" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_TERM" type_name="TERM" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_ENA" type_name="ENA" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_DLY_RST" type_name="DLY_RST" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_RST" type_name="INRST" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_DLY_INC" type_name="DLY_INC" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_DLY_ENA" type_name="DLY_ENA" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_FIFO_RD" type_name="FIFO_RD" is_bus="false"/>
+                    <efxpt:pin name="lvds_bidir_inst1_RX_DBG" type_name="DBG" is_bus="true"/>
+                    <efxpt:pin name="" type_name="INFASTCLK" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="FIFOCLK" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                    <efxpt:pin name="" type_name="INSLOWCLK" is_bus="false" is_clk="true" is_clk_invert="false"/>
+                </efxpt:gen_pin>
+            </efxpt:adv_lrx_info>
+        </efxpt:lvds>
+    </efxpt:lvds_info>
+    <efxpt:jtag_info/>
+    <efxpt:mipi_dphy_info/>
+</efxpt:design_db>

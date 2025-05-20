@@ -1,0 +1,12 @@
+10:09:42 **** Build of configuration Default for project tseDemo ****
+make all 
+CC src/main.c
+CC src/rtl8211fd_drv.c
+CC src/common.c
+CC ../common/start.S
+LD tseDemo
+Memory region         Used Size  Region Size  %age Used
+             ram:        8336 B        32 KB     25.44%
+10:10:06 **** Incremental Build of configuration Default for project tseDemo ****
+make all 
+make: Nothing to be done for 'all'.

@@ -1,0 +1,95 @@
+{
+    "args": [
+        "-o",
+        "tse_mac_rgmii",
+        "--base_path",
+        "C:\\Efinity\\2023.1\\project\\final\\ip",
+        "--vlnv",
+        {
+            "vendor": "efinixinc.com",
+            "library": "ethernet",
+            "name": "efx_tsemac",
+            "version": "5.0"
+        }
+    ],
+    "conf": {
+        "VERSION": "16",
+        "TXFIFO_EN": "1'b1",
+        "RXFIFO_EN": "1'b1",
+        "TXFIFO_DTH": "2048",
+        "RXFIFO_DTH": "2048",
+        "PHY_INTF_MODE": "0",
+        "AXIS_DW": "32"
+    },
+    "output": {
+        "external_testbench_modelsim": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\modelsim\\tse_mac_rgmii.v"
+        ],
+        "external_source_source": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\tse_mac_rgmii_define.vh",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\tse_mac_rgmii_tmpl.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\tse_mac_rgmii_tmpl.vhd",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\tse_mac_rgmii.v"
+        ],
+        "external_testbench_testbench": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\tb_header.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\tb_top.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\ODDR.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\glbl.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\apb3_2_axi4_lite.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\axi4_st_mux.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\mac_pat_gen.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\mac_rx2tx.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\reg_apb3.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\rgmii_2_rmii.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\udp_pat_gen.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\DaulClkFifo.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\temac_ex.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\modelsim.do",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\tse_mac_rgmii.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\tse_mac_rgmii_define.vh"
+        ],
+        "external_testbench_ncsim": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\ncsim\\tse_mac_rgmii.v"
+        ],
+        "external_testbench_synopsys": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Testbench\\synopsys\\tse_mac_rgmii.v"
+        ],
+        "external_example_example": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\timing.sdc",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\temac_ex.peri.xml",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\temac_ex.xml",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\apb3_2_axi4_lite.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\axi4_st_mux.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\header.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\mac_pat_gen.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\mac_rx2tx.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\reg_apb3.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\rgmii_2_rmii.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\temac_ex.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\udp_pat_gen.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\DaulClkFifo.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\tse_mac_rgmii.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\T120F324_devkit\\tse_mac_rgmii_define.vh"
+        ],
+        "external_example_2": [
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\timing_Ti60.sdc",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\temac_ex.peri.xml",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\temac_ex.xml",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\apb3_2_axi4_lite.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\axi4_st_mux.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\header.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\mac_pat_gen.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\mac_rx2tx.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\reg_apb3.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\rgmii_2_rmii.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\temac_ex.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\udp_pat_gen.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\DaulClkFifo.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\tse_mac_rgmii.v",
+            "C:\\Efinity\\2023.1\\project\\final\\ip\\tse_mac_rgmii\\Ti60F225_devkit\\tse_mac_rgmii_define.vh"
+        ]
+    },
+    "sw_version": "2023.1.150",
+    "generated_date": "2025-05-20T02:17:18.215521"
+}

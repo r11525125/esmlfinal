@@ -1,0 +1,63 @@
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 20, 2025 12:36:47
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'trojan_soc_regs.vh' (SORT-1015) (C:\Efinity\2023.1\project\final\system_top.v:8)
+[EFX-0010 VERI-ERROR] cannot open include file 'tse_mac_regs.vh' (SORT-1015) (C:\Efinity\2023.1\project\final\system_top.v:9)
+[EFX-0010 VERI-ERROR] cannot open include file 'dma_regs.vh' (SORT-1015) (C:\Efinity\2023.1\project\final\system_top.v:10)
+[EFX-0010 VERI-ERROR] cannot open include file 'trojan_soc_regs.vh' (VERI-1245) (C:\Efinity\2023.1\project\final\system_top.v:8)
+[EFX-0010 VERI-ERROR] cannot open include file 'tse_mac_regs.vh' (VERI-1245) (C:\Efinity\2023.1\project\final\system_top.v:9)
+[EFX-0010 VERI-ERROR] cannot open include file 'dma_regs.vh' (VERI-1245) (C:\Efinity\2023.1\project\final\system_top.v:10)
+[EFX-0010 VERI-ERROR] 'axi_awaddr' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:95)
+[EFX-0010 VERI-ERROR] 'mac_slv_awaddr' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:139)
+[EFX-0010 VERI-ERROR] 'mac_slv_awvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:140)
+[EFX-0010 VERI-ERROR] 'mac_slv_wdata' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:141)
+[EFX-0010 VERI-ERROR] 'mac_slv_wvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:142)
+[EFX-0010 VERI-ERROR] 'mac_slv_bready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:143)
+[EFX-0010 VERI-ERROR] 'mac_slv_araddr' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:144)
+[EFX-0010 VERI-ERROR] 'mac_slv_arvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:145)
+[EFX-0010 VERI-ERROR] 'mac_slv_rready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:146)
+[EFX-0010 VERI-ERROR] 'mac_slv_awready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:147)
+[EFX-0010 VERI-ERROR] 'mac_slv_wready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:148)
+[EFX-0010 VERI-ERROR] 'mac_slv_bresp' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:149)
+[EFX-0010 VERI-ERROR] 'mac_slv_bvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:150)
+[EFX-0010 VERI-ERROR] 'mac_slv_arready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:151)
+[EFX-0010 VERI-ERROR] 'mac_slv_rdata' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:152)
+[EFX-0010 VERI-ERROR] 'mac_slv_rresp' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:153)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 20, 2025 12:50:43
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] cannot open include file 'trojan_soc_regs.vh' (SORT-1015) (C:\Efinity\2023.1\project\final\system_top.v:8)
+[EFX-0010 VERI-ERROR] cannot open include file 'tse_mac_regs.vh' (SORT-1015) (C:\Efinity\2023.1\project\final\system_top.v:9)
+[EFX-0010 VERI-ERROR] cannot open include file 'dma_regs.vh' (SORT-1015) (C:\Efinity\2023.1\project\final\system_top.v:10)
+[EFX-0010 VERI-ERROR] cannot open include file 'trojan_soc_regs.vh' (VERI-1245) (C:\Efinity\2023.1\project\final\system_top.v:8)
+[EFX-0010 VERI-ERROR] cannot open include file 'tse_mac_regs.vh' (VERI-1245) (C:\Efinity\2023.1\project\final\system_top.v:9)
+[EFX-0010 VERI-ERROR] cannot open include file 'dma_regs.vh' (VERI-1245) (C:\Efinity\2023.1\project\final\system_top.v:10)
+[EFX-0010 VERI-ERROR] 'axi_awaddr' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:95)
+[EFX-0010 VERI-ERROR] 'mac_slv_awaddr' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:139)
+[EFX-0010 VERI-ERROR] 'mac_slv_awvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:140)
+[EFX-0010 VERI-ERROR] 'mac_slv_wdata' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:141)
+[EFX-0010 VERI-ERROR] 'mac_slv_wvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:142)
+[EFX-0010 VERI-ERROR] 'mac_slv_bready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:143)
+[EFX-0010 VERI-ERROR] 'mac_slv_araddr' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:144)
+[EFX-0010 VERI-ERROR] 'mac_slv_arvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:145)
+[EFX-0010 VERI-ERROR] 'mac_slv_rready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:146)
+[EFX-0010 VERI-ERROR] 'mac_slv_awready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:147)
+[EFX-0010 VERI-ERROR] 'mac_slv_wready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:148)
+[EFX-0010 VERI-ERROR] 'mac_slv_bresp' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:149)
+[EFX-0010 VERI-ERROR] 'mac_slv_bvalid' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:150)
+[EFX-0010 VERI-ERROR] 'mac_slv_arready' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:151)
+[EFX-0010 VERI-ERROR] 'mac_slv_rdata' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:152)
+[EFX-0010 VERI-ERROR] 'mac_slv_rresp' is not declared (VERI-1128) (C:\Efinity\2023.1\project\final\system_top.v:153)
+
+///////////////////////////////////
+// Efinity Synthesis Started 
+// May 20, 2025 13:02:08
+///////////////////////////////////
+
+[EFX-0010 VERI-ERROR] module instantiations in compilation scope are not allowed (VERI-1413) (C:\Efinity\2023.1\project\final\ip\dma_s2mm\dma_s2mm_tmpl.v:99)
